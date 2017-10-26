@@ -1,7 +1,50 @@
+.skin-blue .wrapper, .skin-blue .main-sidebar, .skin-blue .left-side {
+  background-color: #0F3B75;
+}
+
+.skin-blue .main-header .logo {
+  background-color: #316BB8;
+  color: #fff;
+  border-bottom: 0 solid transparent;
+}
+
+.skin-blue .main-header li.user-header {
+  background-color: #0F3B75;
+}
+
+.skin-blue .main-header .navbar {
+  background-color: #fff;
+}
+
+.skin-blue .sidebar-menu>li:hover>a, .skin-blue .sidebar-menu>li.active>a, .skin-blue .sidebar-menu>li.menu-open>a {
+  color: #fff;
+  background: #316BB8;
+}
+
+.skin-blue .sidebar-form input[type="text"], .skin-blue .sidebar-form .btn {
+  box-shadow: none;
+  background-color: #fff;
+  border: 1px solid transparent;
+  height: 35px;
+}
+
+.user-panel>.image>img {
+  width: 100%;
+  max-width: 80px;
+  height: auto;
+}
+
 .user-panel>.info>p {
   font-weight: 600;
   margin-bottom: 9px;
-  margin-top:20px;
+  margin-top: 25px;
+  margin-left: 25px;
+}
+
+.pull-left {
+  float: left!important;
+  margin-left: 10px;
+  margin-top: 20px;
 }
 
 table{
