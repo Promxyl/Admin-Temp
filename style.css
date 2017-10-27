@@ -92,9 +92,10 @@ hr.style-one{
 }
 .user-table{
   margin-top: 50px;
-}
+ }
 .user-table .user-table-content{
   margin: 10px;
+  margin-right: 70px;
 }
 .user-table .user-table-content .user-name{
   border-radius: 5px;
