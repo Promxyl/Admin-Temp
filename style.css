@@ -58,21 +58,27 @@ hr.style-one{
   background: #333;
   background-image: linear-gradient(to right, #ccc, #333, #ccc);
 }
-.user-rectangle, .user-rectangle2{
+.user-rectangle, .user-rectangle2 {
   background-color: #ffffff;
   padding: 10px;
   margin-left: 20px;
   margin-right: 20px;
   border-radius: 5px;
 }
-.user-rectangle{
+
+
+ .lineup{
   border: 2px solid #9258BE;
 }
+
+
+
 .user-rectangle .user-rectangle-text,.user-rectangle2 .user-rectangle-text{
   display: block;
   font-size: 18px;
   color: #000000;
   font-weight: bold;
+  padding-left: 20px;
 }
 .user-rectangle .user-rectangle-subtext,.user-rectangle2 .user-rectangle-subtext{
   font-size: 14px;
@@ -80,6 +86,7 @@ hr.style-one{
   white-space:nowrap;
   overflow:hidden;
   text-overflow:ellipsis;
+  padding-left: 20px;
 }
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px){
   .user-rectangle .user-rectangle-text,.user-rectangle .user-rectangle-subtext,
@@ -114,9 +121,9 @@ hr.style-one{
 .user-modal-body{
   margin: 0px 50px 50px 50px;
 }
-.user-modal-body > div > p {
-  color:dimgrey;
-  opacity:0.3;
+.user-modal-body > div > h4 {
+  text-align: center;
+  word-spacing: 10px;
 }
 .user-modal-body .user-modal-input{
   border:none;
